@@ -14,3 +14,8 @@
 
 ![image](https://user-images.githubusercontent.com/52273287/148331467-3303b0c4-a702-4918-8a13-7f0332c7ffae.png)
 
+**更改连接后台地址src/main.js下的**
+```
+Vue.prototype.$uploadapi = xxx
+axios.defaults.baseURL = xxx
+```
